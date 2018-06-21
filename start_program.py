@@ -283,7 +283,7 @@ def main():
         abs_filename_ctl = dir_ctl_path + filename_ctl
         control_file = 'control=' + abs_filename_ctl
         try:
-            check_call(["sqlldr.exe", "NETWORK_BSS@OPTIMA7/NETWORKU46", control_file])
+            check_call(["sqlldr.exe", "NETWORK_BSS@OPTIMA7/NETWXXXXXX", control_file])
         except CalledProcessError, e:
             print('Error occured in call the sqlldr for the file: ', control_file, time)
             savetoFILE(abs_log_filename, 'Error occured in call sqlldr for the file: ', control_file, time, str(e.output))
