@@ -2,7 +2,7 @@ __AUTHOR__='Lifecell OSS group'
 __COPYRIGHT__='Lifecell UA Company, 2018 Kiev, Ukraine'
 __version__ = '0.26'
 __license__ = "GPL"
-__email__ = "oss_group@lifecell.com.ua"
+__email__ = "ossXXXXXX@lifeXXXXX.com.ua"
 __status__ = "Pre-Production"
 ###############################################################################
 # Description : This script is used to process the Ericsson LTE  parser (and might be Huawei with small changes)
